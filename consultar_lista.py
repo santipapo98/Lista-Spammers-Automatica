@@ -45,6 +45,6 @@ if int(cantidad_veces) > 0:
     df.to_excel('Lista_Spammers.xlsx')
 
 else:
-    print('El numero NO es mayor a Cero, care verga')
+    print('La direccion no se encuentra reportada en ninguna blacklist')
 
 driver.quit()
